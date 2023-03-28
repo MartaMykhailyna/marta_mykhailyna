@@ -1,0 +1,72 @@
+.banner-left-main-container {
+    display: flex;
+    width: 596px;
+    height: 233px;
+    margin: 112px;
+    align-items: center;
+}
+
+.banner-left-title {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    width: 596px;
+    height: 64px;
+    color: var(--main-font-color);
+    margin-bottom: 23px;
+}
+
+.banner-left-paragraph-container {
+    display: flex;
+    width: 557px;
+    height: 72px;
+    margin-bottom: 23px;
+}
+
+.banner-left-paragraph {
+    width: 557px;
+    height: 72px;
+    font-family: var(--main-font);
+    font-style: normal;
+    text-align: left;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+/*/Main-text-intro*/
+
+/*Button-write-to-us*/
+.button-write-to-us {
+    display: flex;
+    background: var(--main-background-color);
+    border: 1px solid var(--btn-write-to-us-second-color);
+    box-shadow: 0 3px 24px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    height: 50px;
+    width: 211px;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: var(--btn-write-to-us-second-color);
+}
+
+/*/Button-write-to-us*/
+
+/*Main artwork*/
+.banner-left-artwork-container{
+    max-width: 691px;
+    max-height: 416px;
+    margin-top: 56px;
+}
+.banner-left-artwork{
+   
+}
+/*/Main artwork*/
