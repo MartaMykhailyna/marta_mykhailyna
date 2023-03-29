@@ -36,23 +36,26 @@
     border-radius: 32px;
     transform: rotate(-132deg);
 }
-.about-us__artwork-photo-people-container{
-    width: 295px;
-    height: 295px;
-    transform: rotate(45deg);
-    overflow: hidden;
-    perspective: 1000px;
-}
-.mask{
-    width: 100%;
-    height: 100%;
-    transform: rotate(-45deg) translateY(-50%);
-}
-img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+
+.about-us__artwork-photo-people-wrapper {
+    max-width: 295px;
+    height: auto;
 }
 
+.about-us__artwork-photo-people {
+    margin: 25px auto 45px auto;
+    transform: rotate(45deg);
+    max-width: 152px;
+    height: 152px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.artwork-photo-people{
+    position: absolute;
+    transform: rotate(-45deg) scale(0.7);
+    width: 200%;
+    left: -50%;
+    top: -50%;
+}
 .about-us__artwork-transparent-rectangle{}
 .about-us__artwork-photo-building{}
