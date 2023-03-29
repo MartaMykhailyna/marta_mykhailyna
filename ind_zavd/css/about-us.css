@@ -1,0 +1,58 @@
+.about-us__container{}
+.about-us__artwork-container{
+    width: 654px;
+    height: 654px;
+    margin-left: -16px;
+    border: 3px solid salmon;
+}
+.about-us__artwork-background-small-rectangle{
+    position: absolute;
+    width: 340px;
+    height: 340px;
+   
+    background: #00BCD4;
+    mix-blend-mode: normal;
+    opacity: 0.05;
+    border-radius: 37px;
+    transform: rotate(-132deg);
+}
+.about-us__artwork-background-big-rectangle{
+    position: absolute;
+    width: 654px;
+    height: 654px;
+
+    background: #2196F3;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    border-radius: 60px;
+    transform: rotate(-132deg);
+}
+.about-us__artwork-title{
+    position: absolute;
+    height: 212px;
+    width: 205px;
+    
+    background: #2196F3;
+    border-radius: 32px;
+    transform: rotate(-132deg);
+}
+.about-us__artwork-photo-people-container{
+    width: 295px;
+    height: 295px;
+    transform: rotate(45deg);
+    overflow: hidden;
+    perspective: 1000px;
+}
+.mask{
+    width: 100%;
+    height: 100%;
+    transform: rotate(-45deg) translateY(-50%);
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-us__artwork-transparent-rectangle{}
+.about-us__artwork-photo-building{}
