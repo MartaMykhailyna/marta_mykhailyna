@@ -1,61 +1,110 @@
-.about-us__container{}
-.about-us__artwork-container{
-    width: 654px;
-    height: 654px;
-    margin-left: -16px;
-    border: 3px solid salmon;
+.about-us__container {
 }
-.about-us__artwork-background-small-rectangle{
-    position: absolute;
-    width: 340px;
-    height: 340px;
-   
-    background: #00BCD4;
-    mix-blend-mode: normal;
-    opacity: 0.05;
-    border-radius: 37px;
-    transform: rotate(-132deg);
+.about-us__artwork-container {
+  position: absolute;
+  width: 654px;
+  height: 654px;
+  margin-left: 90px;
 }
-.about-us__artwork-background-big-rectangle{
-    position: absolute;
-    width: 654px;
-    height: 654px;
+.about-us__artwork-background-small-rectangle {
+  position: absolute;
+  width: 289px;
+  height: 289px;
 
-    background: #2196F3;
-    mix-blend-mode: normal;
-    opacity: 0.1;
-    border-radius: 60px;
-    transform: rotate(-132deg);
+  background: #00bcd4;
+  mix-blend-mode: normal;
+  opacity: 0.05;
+  border-radius: 37px;
+  transform: rotate(-132deg);
+  top: -10%;
 }
-.about-us__artwork-title{
-    position: absolute;
-    height: 212px;
-    width: 205px;
-    
-    background: #2196F3;
-    border-radius: 32px;
-    transform: rotate(-132deg);
-}
+.about-us__artwork-background-big-rectangle {
+  position: absolute;
+  width: 554px;
+  height: 554px;
 
+  background: #2196f3;
+  mix-blend-mode: normal;
+  opacity: 0.1;
+  border-radius: 60px;
+  transform: rotate(-132deg);
+}
+.about-us__artwork-title {
+  position: absolute;
+  height: 180px;
+  width: 174px;
+
+  background: #2196f3;
+  border-radius: 32px;
+  transform: rotate(-132deg);
+  top: 128px;
+  left: 116px;
+}
+.about-us__artwork-title-text {
+  font-family: var(--second-font);
+  font-size: 52px;
+  line-height: 64px;
+  color: var(--main-background-color);
+  transform: rotate(132deg);
+  position: absolute;
+  height: 128px;
+  left: 27.27%;
+  right: 0%;
+  top: calc(50% - 128px / 2);
+}
 .about-us__artwork-photo-people-wrapper {
-    max-width: 295px;
-    height: auto;
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  left: 350px;
 }
 
 .about-us__artwork-photo-people {
-    margin: 25px auto 45px auto;
-    transform: rotate(45deg);
-    max-width: 152px;
-    height: 152px;
-    overflow: hidden;
-    border-radius: 15px;
+  margin: 25px auto 45px auto;
+  transform: rotate(45deg);
+  width: 152px;
+  height: 152px;
+  overflow: hidden;
+  border-radius: 15px;
 }
-.artwork-photo-people{
-    position: absolute;
-    transform: rotate(-45deg) scale(0.7);
-    width: 200%;
-    left: -50%;
-    top: -50%;
+.about-us__artwork-photo-people img {
+  position: absolute;
+  transform: rotate(-45deg) scale(0.7);
+  width: 200%;
+  left: -50%;
+  top: -50%;
 }
-.about-us__artwork-transparent-rectangle{}
-.about-us__artwork-photo-building{}
+.about-us__artwork-transparent-rectangle {
+  position: absolute;
+  width: 66px;
+  height: 66px;
+  box-sizing: border-box;
+  border: 7px solid #bbdefb;
+  transform: rotate(-132deg);
+  border-radius: 15px;
+  left: 477px;
+  top: 37%;
+}
+.about-us__artwork-photo-building-wrapper {
+  position: absolute;
+  width: 272px;
+  height: 204px;
+  left: 280px;
+  top: 348px;
+}
+.about-us__artwork-photo-building {
+  margin: 25px auto 45px auto;
+  transform: rotate(45deg);
+  width: 152px;
+  height: 152px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.about-us__artwork-photo-building-wrapper img {
+  position: absolute;
+  transform: rotate(-45deg) scale(0.7);
+  width: 200%;
+  left: -50%;
+  top: -50%;
+}
