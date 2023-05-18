@@ -1,5 +1,7 @@
 .our-values__container {
     border: 2px solid black;
+    margin-top: 90px;
+    background-color: white;
 }
 .our-values__artwork-container {
     position: relative;
@@ -12,28 +14,85 @@
     justify-content: center;
     align-items: center;
 }
+
+.our-values__icon-group {
+    position: absolute;
+    z-index: 6;
+}
+.pin-icon-group {
+    bottom: 50px;
+    left: 20px;
+    width: calc(104px+10%);
+    height: calc(104px+10%);
+}
+.star-icon-group {
+    width: calc(46px+10%);
+    height: calc(46px+10%);
+}
+.camera-icon-group {
+    width: calc(104px+10%);
+    height: calc(104px+10%);
+}
+.letter-icon-group {
+    width: calc(32px+10%);
+    height: calc(32px+10%);
+}
+.load-icon-group {
+    width: calc(46px+10%);
+    height: calc(46px+10%);
+}
+.radio-waves-icon-group {
+    width: calc(62px+10%);
+    height: calc(62px+10%);
+}
+.youtube-icon-group {
+    width: calc(91px+10%);
+    height: calc(91px+10%);
+}
+
 .our-values__the-biggest-ractangle {
+    width: 449.8px;
+    height: 449.8px;
     border: 2px solid #BBDEFB;
     border-radius: 70px;
     transform: rotate(-132deg);
+    border-top: 2px solid teal;
+    border-left: 2px solid lawngreen;
+    border-right: 2px solid rebeccapurple;
+    border-bottom: 2px solid blue;
 }
 .our-values__medium-rectangle {
+    /* position: absolute; */
+    width: 383px;
+    height: 383px;
+    border: 2px solid #BBDEFB;
+    border-radius: 70px;
+    transform: rotate(0deg);
+    margin-top: 40px;
+    margin-left: 20px;
 }
 .our-values__small-rectangle {
+    width: 307px;
+    height: 307px;
+    background: #BBDEFB;
+    border-radius: 50px;
+    transform: rotate(0deg);
+    margin-top: 50px;
+    margin-left: 20px;
+
 }
 .our-values__the-main-rectangle {
-    position: absolute;
   height: 153px;
   width: 148px;
-
+    position: absolute;
   background: #2196f3;
   border-radius: 32px;
-  transform: rotate(-132deg);
-  top: 128px;
-  left: 116px;
+  transform: rotate(-1deg);
   display: flex;
   align-content: center;
   justify-content: center;
+  margin-top: 130px;
+  margin-left: 20px;
 }
 .our-values__artwork-text {
     font-family: var(--second-font);
@@ -43,8 +102,10 @@
     transform: rotate(132deg);
     position: absolute;
     height: 98px;
-    left: 27.27%;
-    right: 0%;
-    top: calc(50% - 98px / 2);
+    /* left: 30%;
+    top: calc(50% - 98px / 2); */
+    margin-left: 40px;
+    margin-top: 35px;
     align-content: center;
+    text-transform: capitalize;
 }
