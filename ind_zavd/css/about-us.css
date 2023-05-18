@@ -122,19 +122,9 @@
   max-width: 546px;
   margin-right: 161px;
 }
-.about-us__main-text {
-  font-weight: 475;
-  font-size: 28px;
-  line-height: 42px;
-}
 .about-us__paragraph-container {
   max-width: 595px;
   margin: 16px 112px auto auto;
-}
-.about-us__paragraph {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
 }
 .about-us__counter-container {
   display: flex;
