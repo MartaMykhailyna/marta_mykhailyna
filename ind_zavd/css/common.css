@@ -10,9 +10,10 @@
     --header-font-color: #585858;
     --main-background-color: #ffffff;
     --second-color: #2196F3;
-    --btn-write-to-us-second-color: #00BCD4;
+    --btn-write-to-us-second-color: #00c7e1;
     --main-font: 'Roboto', sans-serif;
     --second-font: 'Roboto Condensed', sans-serif;
+    --primary-dark: #0d47a1;
 }
 
 .body {
@@ -25,8 +26,21 @@
     max-width: 1440px;
     margin: 0 auto;
 }
-
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
 a {
     color: #000000;
     text-decoration: none;
+}
+h2 {
+    font-family: Roboto;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 78px;
+    text-align: left;
+    color: var(--primary-dark);
+    text-transform: capitalize;
 }

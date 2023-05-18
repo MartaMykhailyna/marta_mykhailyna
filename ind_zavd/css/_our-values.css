@@ -1,0 +1,50 @@
+.our-values__container {
+    border: 2px solid black;
+}
+.our-values__artwork-container {
+    position: relative;
+    width: 636px;
+    height: 636px;
+    margin-left: 16px;
+    border: 2px solid wheat;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.our-values__the-biggest-ractangle {
+    border: 2px solid #BBDEFB;
+    border-radius: 70px;
+    transform: rotate(-132deg);
+}
+.our-values__medium-rectangle {
+}
+.our-values__small-rectangle {
+}
+.our-values__the-main-rectangle {
+    position: absolute;
+  height: 153px;
+  width: 148px;
+
+  background: #2196f3;
+  border-radius: 32px;
+  transform: rotate(-132deg);
+  top: 128px;
+  left: 116px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.our-values__artwork-text {
+    font-family: var(--second-font);
+    font-size: 44px;
+    line-height: 54px;
+    color: var(--main-background-color);
+    transform: rotate(132deg);
+    position: absolute;
+    height: 98px;
+    left: 27.27%;
+    right: 0%;
+    top: calc(50% - 98px / 2);
+    align-content: center;
+}

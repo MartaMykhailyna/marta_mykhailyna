@@ -57,7 +57,10 @@
     text-transform: uppercase;
     color: var(--btn-write-to-us-second-color);
 }
-
+.button-write-to-us img{
+    width: 19px;
+    height: 24px;
+}
 /*/Button-write-to-us*/
 
 /*Main artwork*/
@@ -66,7 +69,8 @@
     max-height: 416px;
     margin-top: 56px;
 }
-.banner-left-artwork{
-   
+.banner-left-artwork-container img{
+   width: 691px;
+   height: 416px;
 }
 /*/Main artwork*/
