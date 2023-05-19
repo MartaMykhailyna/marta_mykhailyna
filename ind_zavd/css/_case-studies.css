@@ -1,0 +1,48 @@
+.case-studies {
+}
+.case-studies__container {
+}
+.case-studies__options {
+    margin-left: 137px;
+}
+.case-studies__option {
+    text-transform: capitalize;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:#000000DE;
+    margin-left: 25px;
+}
+.case-studies__option:hover {
+    text-transform: capitalize;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:#0D47A1;
+    margin-left: 25px;
+}
+.case-studies__option-container{
+    margin-bottom: 30px;
+}
+.case-studies__option-container:last-child{
+    margin-bottom: 0;
+}
+.case-studies__option-container:hover{
+    background-color: #BBDEFB;
+    border-radius: 10px;
+    max-width: 195px;
+}
+.case-studies__banners-container {
+    border: 3px solid brown;
+    width: 903px;
+    height: 568px;
+    margin-right: 117px;
+}
+.case-studies__banner {
+}

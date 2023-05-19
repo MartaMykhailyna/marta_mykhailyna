@@ -25,9 +25,6 @@
         const thirdSlide =
           currentSlide + 1 >= slides.length ? 0 : currentSlide + 1;
         slideContainer.innerHTML += slides[thirdSlide];
-        const fourthSlide =
-          currentSlide + 1 >= slides.length ? 0 : currentSlide + 1;
-        slideContainer.innerHTML += slides[fourthSlide];
       }
     }
     function nextSlide() {

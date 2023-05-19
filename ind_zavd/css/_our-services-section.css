@@ -3,6 +3,7 @@
     height: 100%;
     position: relative;
     margin-top: 200px;
+    overflow: hidden;
 }
  .our-services__background{
     width: 100%;
@@ -35,12 +36,12 @@
     width: 1000px;
     display: flex;
     justify-content: space-between;
-    margin-top: 65px;
+    margin-top: 90px;
 }
 .our-services__slider-column{
     background-color: var(--main-background-color);
-    width: calc(238+25%)px;
-    height: 400px;
+    width: 258px;
+    height: 340px;
     border-radius: 30px;
     padding: 0 20px;
     margin: 0 10px;
@@ -48,8 +49,8 @@
 }
 .our-services__slider-column img{
     position: relative;
-    width: 205px;
-    height: 150px;
+    width: 223px;
+    height: 124px;
     border-radius: 25px;
     top: -35px;
     object-fit: cover;
@@ -57,8 +58,8 @@
     box-shadow: 25px 25px 25px  #ccc;;
 }
 .btn__see-details{
-    height: 42px;
-    width: 203px;
+    height: 39px;
+    width: 217px;
     border: 3px solid #2196f3;
     border-radius: 10px;
     display: flex;
@@ -107,7 +108,7 @@
     width: 130px;
     height: 45px;
     margin-left: 1100px;
-    margin-top: 60px;
+    margin-top: 100px;
 }
 .our-services__slideshow-btn{
     width: 43px;
@@ -124,25 +125,29 @@
     text-align: center;
     text-decoration: none;
     white-space: nowrap;
-    z-index: 6;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .our-services__artwork-recrtangle-container{
     position: absolute;
-    height: 811px;
-    width: 811px;
+    height: 830px;
+    width: 911px;
     right: -300px;
-    top: 1500px;
+    top: 1499px;
+    overflow: hidden;
 }
 .our-services__artwork-recrtangle{
     width: 750px;
-  height: 750px;
-  border: 40px solid #b1eaf1;
-  mix-blend-mode: normal;
-  opacity: 0.9;
-  border-radius: 60px;
-  transform: rotate(-132deg);
-  overflow: hidden;
+    height: 750px;
+    border-right: 40px solid #b1eaf1;
+    border-top: 40px solid #b1eaf1;
+    background-color: white;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+    border-radius: 60px;
+    transform: rotate(-132deg);
+    overflow: hidden;
+    object-fit: cover;
+    object-position: bottom 30px;
 }
 .our-services__artwork-recrtangle img{
     transform: rotate(132deg);
@@ -151,5 +156,4 @@
     object-fit: cover;
     object-position: top 0 left 70px;
     background-color: white;
-    overflow: hidden;
 }
