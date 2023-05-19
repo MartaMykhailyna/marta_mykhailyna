@@ -39,7 +39,7 @@
 /*/Main-text-intro*/
 
 /*Button-write-to-us*/
-.button-write-to-us {
+/* .button-write-to-us {
     display: flex;
     background: var(--main-background-color);
     border: 1px solid var(--btn-write-to-us-second-color);
@@ -60,7 +60,7 @@
 .button-write-to-us img{
     width: 19px;
     height: 24px;
-}
+} */
 /*/Button-write-to-us*/
 
 /*Main artwork*/

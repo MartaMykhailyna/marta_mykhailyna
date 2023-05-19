@@ -1,6 +1,7 @@
 .case-studies {
 }
 .case-studies__container {
+    display: flex;
 }
 .case-studies__options {
     margin-left: 137px;
@@ -42,7 +43,7 @@
     border: 3px solid brown;
     width: 903px;
     height: 568px;
-    margin-right: 117px;
+    margin-left: 91px;
 }
 .case-studies__banner {
 }

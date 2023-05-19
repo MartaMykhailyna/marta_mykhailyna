@@ -1,0 +1,40 @@
+.ready-to-get-started-container {
+    width: 1215px;
+    height: auto;
+    background-color: #2196F3;
+    border-radius: 24px;
+}
+.ready-to-get-started-title {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+}
+.ready-to-get-started-text {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:white;
+}
+.ready-to-get-started__button-write-to-us {
+    display: flex;
+    background: var(--main-background-color);
+    border-radius: 8px;
+    height: 50px;
+    width: 211px;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: var(--second-color);
+}
