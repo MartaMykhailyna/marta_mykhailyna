@@ -32,13 +32,21 @@
     text-transform: uppercase;
     color: var(--second-color);
 }
-.our-services__carousel-container{
+/* .our-services__carousel-container{
     width: 1000px;
     display: flex;
     justify-content: space-between;
     margin-top: 90px;
-}
-.our-services__slider-column{
+    /* transform: translateX(-${currentPosition * slideWidth}px);
+    transition: transform 0.5s ease; Додайте плавну анімацію затримки 
+} */
+/* .our-services__carousel-container .our-services__carousel-container-inner {
+    /* Ваші інші стилі 
+    transform: translateX(-' + (currentPosition * slideWidth) + 'px);
+    transition: transform 0.5s ease; /* Додайте плавну анімацію затримки 
+  } */
+  
+/* .our-services__slider-column{
     background-color: var(--main-background-color);
     width: 258px;
     height: 340px;
@@ -68,7 +76,53 @@
     color: #0d47a1;
     text-transform: uppercase;
     font-family: var(--main-font);
-}
+} */
+.our-services__carousel {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .our-services__slide {
+    flex: 0 0 33.33%; /* Розмір слайда залежно від кількості видимих слайдів */
+    min-width: 33.33%; /* Мінімальна ширина слайда */
+  }
+  .our-services__slider-column{
+      background-color: var(--main-background-color);
+      width: 258px;
+      height: 340px;
+      border-radius: 30px;
+      padding: 0 20px;
+      margin: 0 10px;
+      position: relative;
+  }
+  .our-services__slider-column img{
+      position: relative;
+      width: 223px;
+      height: 124px;
+      border-radius: 25px;
+      top: -35px;
+      object-fit: cover;
+      object-position: center;
+      box-shadow: 25px 25px 25px  #ccc;;
+  }
+  .btn__see-details{
+      height: 39px;
+      width: 217px;
+      border: 3px solid #2196f3;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #0d47a1;
+      text-transform: uppercase;
+      font-family: var(--main-font);
+  }
 .our-services__hyperlink-see-all-container img{
    width: 24px;
    height: 24px;
@@ -134,6 +188,10 @@
     right: -300px;
     top: 1499px;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    clip-path: inset(0 40px 40px 0);
 }
 .our-services__artwork-recrtangle{
     width: 750px;
@@ -156,4 +214,5 @@
     object-fit: cover;
     object-position: top 0 left 70px;
     background-color: white;
+    overflow: hidden;
 }

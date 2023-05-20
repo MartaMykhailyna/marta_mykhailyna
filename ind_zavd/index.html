@@ -175,9 +175,9 @@
           </div>
           <!-- Columns -->
           <div class="our-services_second-row" style="display: flex; justify-content: space-between;">
-            <div class="our-services__carousel-container" style="z-index: 7;">
+            <!-- <div class="our-services__carousel-container" style="z-index: 7;">
               <div class="our-services__carousel-container-inner"
-                style="display: flex; justify-content: space-between;">
+                style="display: flex; justify-content: space-between;   transition: transform 0.5s ease-in-out;">
                 <div class="our-services__slider-column-first our-services__slider-column">
                   <div class="our-services__column-photo-first our-services__column-photo">
                     <img src="img/our-services-photo1.jpg" alt="">
@@ -231,7 +231,18 @@
                   </a>
                 </div>
               </div>
+            </div> -->
+            <div class="our-services__carousel-container">
+              <ul class="our-services__carousel">
+                <li class="our-services__slide">    <div class="our-services__slider-column-first our-services__slider-column">  <div class="our-services__column-photo-first our-services__column-photo"> <img src="img/our-services-photo1.jpg" alt=""> </div> <p class="our-srevices__paragraph"> Pallentesque ac bibendum tortor, vel blandit nulla. Nulla eget lobortis lacus. Eu aliquam nibh tempus at</p> <a href="#"> <div class="btn__see-details">see datail</div> </a></div>,
+            </li>
+                <li class="our-services__slide"><div class="our-services__slider-column-second our-services__slider-column">  <div class="our-services__column-photo-second our-services__column-photo"> <img src="img/our-services-photo2.jpg" alt=""> </div> <p class="our-srevices__paragraph"> Pallentesque ac bibendum tortor, vel blandit nulla. Nulla eget lobortis lacus. Eu aliquam nibh tempus at</p> <a href="#"> <div class="btn__see-details">see datail</div> </a></div></li>
+                <li class="our-services__slide"><div class="our-services__slider-column-fourth our-services__slider-column">  <div class="our-services__column-photo-fourth our-services__column-photo"> <img src="img/our-services-photo4.jpg" alt=""> </div> <p class="our-srevices__paragraph"> Pallentesque ac bibendum tortor, vel blandit nulla. Nulla eget lobortis lacus. Eu aliquam nibh tempus at</p> <a href="#"> <div class="btn__see-details">see datail</div> </a></div></li>
+                <li class="our-services__slide"><div class="our-services__slider-column-third our-services__slider-column">  <div class="our-services__column-photo-third our-services__column-photo"> <img src="img/our-services-photo3.jpg" alt=""> </div> <p class="our-srevices__paragraph"> Pallentesque ac bibendum tortor, vel blandit nulla. Nulla eget lobortis lacus. Eu aliquam nibh tempus at</p> <a href="#"> <div class="btn__see-details">see datail</div> </a></div></li>
+                <!-- Додайте інші слайди -->
+              </ul>
             </div>
+            
             <div class="our-services__artwork-recrtangle-container">
               <div class="our-services__artwork-recrtangle">
                 <img src="../img/artwork.png" alt="">
@@ -536,12 +547,20 @@
                   <img src="img/footer-icon-instagram.svg" alt="Instagram">
                 </div>
               </div>
-              <div class="footer__language-selector">
-                <img class="footer__language-selector-earth" src="img/footer-language-selector-icon-earth.svg" alt="">
-                <p class="footer__language-selector-title">English - En</p>
+              <select name="language" id="footer__language">
+             <option value=""> <div class="footer__language-selector english-selector">
+                <img class="footer__language-selector-earth " src="img/footer-language-selector-icon-earth.svg" alt="">
+                <p class="footer__language-selector-title english-selector-title">English - En</p>
                 <img class="footer__language-selector-arrow-down" src="img/footer-language-selector-arrow-down.svg"
                   alt="">
-              </div>
+              </div></option>
+             <option value=""> <div class="footer__language-selector">
+                <img class="footer__language-selector-earth" src="img/footer-language-selector-icon-earth.svg" alt="">
+                <p class="footer__language-selector-title">Ukrainian - Ua</p>
+                <img class="footer__language-selector-arrow-down" src="img/footer-language-selector-arrow-down.svg"
+                  alt="">
+              </div></option>
+            </select>
             </div>
           </nav>
         </div>
@@ -549,7 +568,8 @@
       <!-- /footer -->
     </main>
   </div>
-  <script src="js/our-services-carousel.js"></script>
+  <!-- <script src="js/our-services-carousel.js"></script> -->
+  <script src="js/our-services-carousel1.js"></script>
 </body>
 
 </html>
