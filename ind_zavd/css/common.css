@@ -6,18 +6,82 @@
 }
 
 :root{
-    --main-font-color: rgba(0, 0, 0, 0.87);
-    --header-font-color: #585858;
-    --main-background-color: #ffffff;
-    --second-color: #2196F3;
-    --btn-write-to-us-second-color: #00c7e1;
+    --paper-light-background: #ffffff;
+    --paper-dark: #424242;
+    --default-light: #fafafa;
+    --default-dark: #303030;
+    --primary-main: #2196F3;
+    --primary-light: rgb(187, 222, 251);
+    --primary-dark: #0D47A1;
+    --secondary-main: rgb(0, 188, 212);
+    --secondary-light: rgb(178, 235, 242);
+    --secondary-dark: #006064;
+    --accent-main: #651FFF;
+    --accent-light: #EDE7F6;
+    --accent-dark: #4527A0;
+    --text-primary: rgba(0, 0, 0, 0.871);
+    --text-secondary: rgba(0, 0, 0, 0.541);
+    --text-secondary-dark-mode: rgba(0, 0, 0, 0.54);
+    --text-disabled: rgba(0, 0, 0, 0.38);
+    --text-field: rgba(0, 0, 0, 0.42);
+    --text-light-color: #fff;
+    /* --second-rectangles-borders: rgb(177, 234, 241); */
+    --second-background-color: rgb(235, 245, 254);
+    --social-icon-container-color: #EBEBEB;
+    --btn-write-to-us-second-color: rgba(0, 188, 212, 1);
+    --text-subtitle-color: #0D47A1;
+    --btn-see-details-color: #2196F3;
+    --carousel-container-bacground: #f1f8fe;
+    --carousel-container-border: rgb(177, 234, 241);
+    --logo-text-primary: rgba(0, 0, 0, 0.871);
     --main-font: 'Roboto', sans-serif;
     --second-font: 'Roboto Condensed', sans-serif;
-    --primary-dark: #0d47a1;
+
+
+    /* --main-font-color: rgba(0, 0, 0, 0.87); */
+    /* --header-font-color: #585858;
+    --third-color: #00bcd4;
+    --rectangles-borders: #bbdefb;
+    --second-rectangles-borders: #b1eaf1;
+    --btn-write-to-us-second-color: rgba(0, 188, 212, 1);
+    --titles-color: #0d47a1;
+    --second-background-color: #ebf5fe;
+    --client-testimonials-background-color:#f1f8fe; */
+
+}
+.darkmode{
+    --paper-light-background: #303030;
+    --paper-dark: #424242;
+    --default-light: #fafafa;
+    --default-dark: #303030;
+    --primary-main: #0D47A1;
+    --primary-light: #0D47A1;
+    /* --primary-dark: #0D47A1; */
+    --secondary-main: #00BCD4;
+    --secondary-light: #B2EBF2;
+    --secondary-dark: #006064;
+    --accent-main: #651FFF;
+    --accent-light: #EDE7F6;
+    --accent-dark: #4527A0;
+    --text-primary: #fff;
+    --text-secondary: rgba(0, 0, 0, 0.541);
+    --text-secondary-dark-mode: rgba(255,255,255,0.7);
+    --text-disabled: #00000061;
+    --text-field: #0000006b;
+    --client-testimonials-background-color: #0D47A1;
+    --second-rectangles-borders: #b1eaf1;
+    --second-background-color: rgb(235, 245, 254);
+    --social-icon-container-color: rgba(0, 0, 0, 0.08);
+    --btn-write-to-us-second-color: rgba(178, 235, 242, 1);
+    --text-subtitle-color: rgba(187, 222, 251, 1);
+    --logo-text-primary: rgba(255,255,255,0.7); 
+    --btn-see-details-color: rgba(187, 222, 251, 1);
+    --carousel-container-bacground: rgba(13, 71, 161, 0.2);
+    --carousel-container-border: #006064;
 }
 
 .body {
-    background: var(--main-background-color);
+    background: var( --paper-light-background);
     font-family: var(--main-font);
 }
 
@@ -26,6 +90,7 @@
     max-width: 1440px;
     margin: 0 auto;
     overflow: hidden;
+    background-color: var( --paper-light-background);
 }
 img {
     display: block;
@@ -45,7 +110,7 @@ h2 {
     font-weight: 700;
     line-height: 78px;
     text-align: left;
-    color: var(--primary-dark);
+    color: var( --text-subtitle-color);
     text-transform: capitalize;
 }
 .subtitle{
@@ -53,16 +118,18 @@ h2 {
     font-weight: 475;
     font-size: 28px;
     line-height: 42px;
+    color: var(--text-primary);
 }
 .paragraph{
     font-family: Roboto, serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
+    color: var(--text-primary);
 }
 .button-write-to-us {
     display: flex;
-    background: var(--main-background-color);
+    background: var(--paper-light-background);
     border: 1px solid var(--btn-write-to-us-second-color);
     box-shadow: 0 3px 24px 4px rgba(0, 0, 0, 0.06);
     border-radius: 8px;

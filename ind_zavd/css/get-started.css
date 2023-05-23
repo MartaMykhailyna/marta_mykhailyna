@@ -14,7 +14,7 @@
     line-height: 64px;
     width: 596px;
     height: 64px;
-    color: var(--main-font-color);
+    color: var( --text-primary);
     margin-bottom: 23px;
 }
 
@@ -34,6 +34,7 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 36px;
+    color: var(--text-primary);
 }
 
 /*/Main-text-intro*/

@@ -34,7 +34,7 @@
     font-size: 24px;
     line-height: 28px;
     text-align: center;
-    color: rgba(0, 0, 0, 0.87);
+    color: var(--logo-text-primary);
 }
 .header-container {
     display: flex;
@@ -57,14 +57,14 @@
     display: inline-block;
     margin: 0 20px;
     text-decoration: none;
-    color: var(--header-font-color);
+    color: var(--text-secondary-dark-mode);
     margin-left: 35px;
     transition: color 0.1s linear;
 
 }
 
 .hyperlink:hover {
-    color: var(--second-color);
+    color: #2196F3;
 }
 
 .options {
@@ -74,21 +74,19 @@
     align-items: center;
     margin: 0 auto;
     margin-top: 7px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .android-settings {
-    display: flex;
     width: 29px;
     height: 29px;
 }
 
 .line {
-    display: flex;
     width: 2px;
     height: 25px;
-    background-color: #979797;
-    border: 1px solid #979797;
+    background-color: var(--text-disabled);
+    border: 1px solid var(--text-disabled);
 }
 
 .button-login {
@@ -100,7 +98,7 @@
     line-height: 19px;
     text-decoration: none;
     text-transform: uppercase;
-    color: #302F2F;
+    color: var(--text-primary);
 }
 
 .button-register {
@@ -109,11 +107,11 @@
     height: 39px;
     justify-content: center;
     align-items: center;
-    background-color: var(--second-color);
+    background-color: #2196F3;
     border: none;
     border-radius: 8px;
     text-transform: uppercase;
-    color: white;
+    color: var(--text-light-color);
     font-family: var(--main-font);
     font-size: 16px;
     font-weight: 500;

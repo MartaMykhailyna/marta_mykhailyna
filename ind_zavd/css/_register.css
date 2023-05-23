@@ -1,0 +1,102 @@
+.pages{
+    display: none;
+}
+.register__form-container{
+    height: 650.5px;
+    width: 699px;
+    background: #FFFFFF;
+    border: 1px solid #2196F3;
+    box-shadow: 0px 3px 49px 9px rgba(0, 0, 0, 0.06);
+    border-radius: 20px 20px 20px 0px;
+}
+.register__title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #0D47A1;
+    text-transform: capitalize;
+    margin: 54px auto;
+}
+.register__social-medias-container{
+    margin: 54px 84px;
+    display: flex;
+    justify-content: space-between;
+}
+.register__social-media-btn{
+    height: 39px;
+    width: 161.8285675048828px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div svg{
+    margin-right: 10px;
+}
+.register__social-media-btn-facebook {
+    background-color: #5856D6;
+}
+.register__social-media-btn-twitter {
+    background-color: #00BCD4;
+}
+.register__social-media-btn-google {
+    background-color: #D84226;
+}
+.register-line{
+    width: 68px;
+    height: 1px;
+    transform: rotate(-90deg);
+}
+.register__subtitle{
+    display: flex;
+    justify-content: space-between;
+    margin: 54px auto;
+}
+.subtitle-text{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.54);
+}
+form{
+    margin: 0 79px;
+}
+.field input{
+    width: 100%;
+    height: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.54);
+}
+.field input.active{
+    width: 100%;
+    height: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    /* identical to box height */   
+    color: #2196F3;
+    border-bottom: 2px solid #2196F3;
+}

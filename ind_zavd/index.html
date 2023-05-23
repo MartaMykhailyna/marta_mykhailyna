@@ -50,13 +50,19 @@
         <!--Options-->
         <nav class="options">
           <a href="#" class="button-login">Login</a>
-          <button class="button-register">Register</button>
+          <a href="register.html" class="button-register">Register</a>
           <span class="line"></span>
           <!--Шестерня-->
           <div class="android-settings">
             <a class="gear" href="#" style="display: flex;"><img src="img/gear.png" alt="Settings"></a>
             <!--/Шестерня-->
-          </div>
+            <button id="dark-mode-toggle" class="dark-mode-toggle">
+              <svg width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496">
+                <path fill="currentColor"
+                  d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z"
+                  transform="translate(-8 -8)" />
+              </svg>
+            </button>
         </nav>
         <!--/Options-->
       </div>
@@ -78,7 +84,13 @@
           <a href="#">
             <div class="button-write-to-us">
               Write to us
-              <img src="img/but-wtu.jpg" alt="image" width="16" height="19">
+              <svg width="16" height="19" viewBox="0 0 16 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M0 18.5017L15.905 9.25087L0 0V7.1951L11.3935 9.25087L0 11.3066V18.5017Z"
+                  fill="var(--btn-write-to-us-second-color)" />
+              </svg>
+
+              <!-- <img src="img/btn-wrtu-light.svg" alt="image" width="16" height="19"> -->
             </div>
           </a>
         </div>
@@ -93,20 +105,20 @@
       <!--Pagination-->
       <section class="pagination">
         <div class="pagination-item1">
-          <a href="#" class="pagination-item1-title">Business solution</a>
-          <span class="pagination-item1-text">Interdum et malesuada fames ac ante…</span>
+          <a href="#" class="pagination-item1-title pagination-title">Business solution</a>
+          <span class="pagination-item1-text pagination-text">Interdum et malesuada fames ac ante…</span>
         </div>
         <span class="pagination-line1"
           style=" display: flex; width: 1px;  height: 63px;  background-color: #0000001F;border: 1px solid #0000001F; margin-top: 12px;"></span>
         <div class="pagination-item2">
-          <a href="#" class="pagination-item2-title">Free project quote</a>
-          <span class="pagination-item2-text">Interdum et malesuada fames ac ante…</span>
+          <a href="#" class="pagination-item2-title pagination-title">Free project quote</a>
+          <span class="pagination-item2-text pagination-text">Interdum et malesuada fames ac ante…</span>
         </div>
-        <span class="pagination-line2 "
+        <span class="pagination-line2"
           style="display: flex;  width: 1px;  height: 63px;  background-color: #0000001F;border: 1px solid #0000001F; margin-top: 12px;"></span>
         <div class="pagination-item3">
-          <a href="#" class="pagination-item3-title">Nulla lobortis nunc</a>
-          <span class="pagination-item3-text">Interdum et malesuada fames ac ante…</span>
+          <a href="#" class="pagination-item3-title pagination-title">Nulla lobortis nunc</a>
+          <span class="pagination-item3-text pagination-text">Interdum et malesuada fames ac ante…</span>
         </div>
       </section>
       <!--/Pagination-->
@@ -169,7 +181,20 @@
             <h2 class="our-services__title">Our services</h2>
             <a href="#">
               <div class="our-services__hyperlink-see-all-container" style="z-index: 7;">
-                see all <img src="img/arrow-right.svg" alt="">
+                see all <svg width="25px" height="25px" viewBox="0 0 20 20" version="1.1"
+                  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g id="Page-1" stroke="none" stroke-width="1" fill="#0d47a1" fill-rule="evenodd">
+                    <g id="Dribbble-Light-Preview" transform="translate(-180.000000, -6639.000000)"
+                      fill="var(--btn-see-details-color)">
+                      <g id="icons" transform="translate(56.000000, 160.000000)">
+                        <path
+                          d="M134,6479 L132.565,6480.393 L140.172,6488 L124,6488 L124,6490 L140.172,6490 L132.586,6497.586 L134,6499 C137.661,6495.339 140.496,6492.504 144,6489 L134,6479"
+                          id="arrow_right-[#349]">
+                        </path>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
               </div>
             </a>
           </div>
@@ -250,10 +275,37 @@
           <!-- btn for slidshow -->
           <div class="our-services-last-row">
             <div class="our-services-slider-btn-container">
-              . <button class="our-services__slideshow-btn-left our-services__slideshow-btn" style="z-index: 7;"><img
-                  src="img/arrow-left.svg" alt=""></button>
-              <button class="our-services__slideshow-btn-right our-services__slideshow-btn" style="z-index: 7;"><img
-                  src="img/arrow-right.svg" alt=""></button>
+              <button class="our-services__slideshow-btn-left our-services__slideshow-btn" style="z-index: 7;">
+                <svg width="25px" height="25px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g id="Page-1" stroke="none" stroke-width="1" fill="#0d47a1" fill-rule="evenodd">
+                    <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -6639.000000)"
+                      fill="var(--btn-see-details-color)">
+                      <g id="icons" transform="translate(56.000000, 160.000000)">
+                        <path
+                          d="M94,6499 L95.435,6497.607 L87.828,6490 L104,6490 L104,6488 L87.828,6488 L95.414,6480.414 L94,6479 C90.339,6482.661 87.504,6485.496 84,6489 C87.966,6492.966 85.166,6490.166 94,6499"
+                          id="arrow_left-[#350]">
+                        </path>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </button>
+              <button class="our-services__slideshow-btn-right our-services__slideshow-btn" style="z-index: 7;"><svg
+                  width="25px" height="25px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g id="Page-1" stroke="none" stroke-width="1" fill="#0d47a1" fill-rule="evenodd">
+                    <g id="Dribbble-Light-Preview" transform="translate(-180.000000, -6639.000000)"
+                      fill="var(--btn-see-details-color)">
+                      <g id="icons" transform="translate(56.000000, 160.000000)">
+                        <path
+                          d="M134,6479 L132.565,6480.393 L140.172,6488 L124,6488 L124,6490 L140.172,6490 L132.586,6497.586 L134,6499 C137.661,6495.339 140.496,6492.504 144,6489 L134,6479"
+                          id="arrow_right-[#349]">
+                        </path>
+                      </g>
+                    </g>
+                  </g>
+                </svg></button>
             </div>
           </div>
           <!-- /btn for slidshow -->
@@ -421,13 +473,13 @@
           <!--manual navigation start-->
           <div class="navigation-manual client-testimonials__slider-buttons-container">
             <label for="radio1"
-              class="manual-btn client-testimonials__slider-button-1 client-testimonials__slider-button"></label>
+              class="manual-btn client-testimonials__slider-button-1 client-testimonials__slider-button nav-button"></label>
             <label for="radio2"
-              class="manual-btn client-testimonials__slider-button-2 client-testimonials__slider-button"></label>
+              class="manual-btn client-testimonials__slider-button-2 client-testimonials__slider-button nav-button"></label>
             <label for="radio3"
-              class="manual-btn client-testimonials__slider-button-3 client-testimonials__slider-button"></label>
+              class="manual-btn client-testimonials__slider-button-3 client-testimonials__slider-button nav-button"></label>
             <label for="radio4"
-              class="manual-btn client-testimonials__slider-button-4 client-testimonials__slider-button"></label>
+              class="manual-btn client-testimonials__slider-button-4 client-testimonials__slider-button nav-button"></label>
           </div> <!--manual navigation end-->
           <!--image slider end-->
         </div>
@@ -455,24 +507,44 @@
         <div class="case-studies__container">
           <div class="case-studies__options">
             <h2 style="margin-bottom: 38px;">Case<br>Studies</h2>
-            <div class="case-studies__option-container">
-              <p class="case-studies__option">corporate</p>
-            </div>
-            <div class="case-studies__option-container">
-              <p class="case-studies__option">advertising</p>
-            </div>
-            <div class="case-studies__option-container">
-              <p class="case-studies__option">marketing</p>
-            </div>
-            <div class="case-studies__option-container">
-              <p class="case-studies__option">governmnet</p>
-            </div>
-            <div class="case-studies__option-container">
-              <p class="case-studies__option">creative</p>
+            <div class="case-studies__buttons-container">
+              <div class="case-studies__option-container">
+                <button class="button case-studies__option">corporate</button>
+              </div>
+              <div class="case-studies__option-container">
+                <button class="button case-studies__option">advertising</button>
+              </div>
+              <div class="case-studies__option-container">
+                <button class="button case-studies__option">marketing</button>
+              </div>
+              <div class="case-studies__option-container">
+                <button class="button case-studies__option">governmnet</button>
+              </div>
+              <div class="case-studies__option-container">
+                <button class="button case-studies__option">creative</button>
+              </div>
             </div>
           </div>
           <div class="case-studies__banners-container">
-            <div class="case-studies__banner"></div>
+            <div class="banner-container">
+              <div class="row">
+                <div class="column">
+                  <img class="banner-image library" src="img/case-studies-photo-computer.jpg" alt="">
+                </div>
+                <div class="column">
+                  <img class="banner-image keyboard" src="img/case-studies-photo-drawing.jpg" alt="">
+                </div>
+                <div class="column">
+                  <img class="banner-image" src="img/case-studies-photo-library.jpg" alt="">
+                </div>
+                <div class="column">
+                  <img class="banner-image" src="img/case-studies-photo-workplace.jpg" alt="">
+                </div>
+                <div class="column">
+                  <img class="banner-image" src="img/case-studies-photo-phone.jpg" alt="">
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -510,7 +582,7 @@
             </div>
           </nav>
           <div class="footer__text">
-            <p class="footer__paragraph">
+            <p class="footer__paragraph ">
               Nam posuere accumsan porta. Integer id orci
               sed ante tincidunt tincidunt sit amet sed
               libero.</p>
@@ -567,13 +639,13 @@
             <div class="footer__language-selector">
               <select name="language" class="">
                 <option value="EN">
-                  <div class="footer__language-selector english-selector">
-                    <!-- <img class="footer__language-selector-earth " src="img/footer-language-selector-icon-earth.svg"
+                  <!-- <div class="footer__language-selector english-selector"> -->
+                  <!-- <img class="footer__language-selector-earth " src="img/footer-language-selector-icon-earth.svg"
                     alt=""> -->
-                    <p class="footer__language-selector-title english-selector-title">English - En</p>
-                    <!-- <img class="footer__language-selector-arrow-down" src="img/footer-language-selector-arrow-down.svg"
+                  <p class="footer__language-selector-title english-selector-title">English - En</p>
+                  <!-- <img class="footer__language-selector-arrow-down" src="img/footer-language-selector-arrow-down.svg"
                     alt=""> -->
-                  </div>
+                  <!-- </div> -->
                 </option>
                 <option value="UA">
                   <!-- <div class="footer__language-selector"> -->
@@ -597,6 +669,8 @@
   </div>
   <script src="js/our-services-carousel1.js"></script>
   <script src="client-testimonials-slider.js"></script>
+  <script src="js/case-studies-banner.js"></script>
+  <script src="js/dark-mode.js"></script>
 </body>
 
 </html>
