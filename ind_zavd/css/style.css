@@ -1,8 +1,8 @@
-@import "common.css";
-@import "header.css";
-@import "get-started.css";
-@import "pagination.css";
-@import "about-us.css";
+@import "_common.css";
+@import "_header.css";
+@import "_get-started.css";
+@import "_pagination.css";
+@import "_about-us.css";
 @import "_our-services-section.css";
 @import "_our-values.css";
 @import "_client-testimonials.css";

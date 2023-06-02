@@ -91,7 +91,7 @@
    color: var( --text-subtitle-color);
 }
 .our-services__main-text {
-    font-family: Roboto;
+    font-family: var(--main-font);
     font-size: 23px;
     font-weight: 500;
     line-height: 42px;

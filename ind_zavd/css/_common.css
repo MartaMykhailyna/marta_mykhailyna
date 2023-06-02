@@ -34,6 +34,7 @@
     --carousel-container-bacground: #f1f8fe;
     --carousel-container-border: rgb(177, 234, 241);
     --logo-text-primary: rgba(0, 0, 0, 0.871);
+    --case-studies-btn-hover-color: #bbdefb;
     --main-font: 'Roboto', sans-serif;
     --second-font: 'Roboto Condensed', sans-serif;
 
@@ -56,8 +57,7 @@
     --default-dark: #303030;
     --primary-main: #0D47A1;
     --primary-light: #0D47A1;
-    /* --primary-dark: #0D47A1; */
-    --secondary-main: #00BCD4;
+    --secondary-main: rgb(0, 188, 212);
     --secondary-light: #B2EBF2;
     --secondary-dark: #006064;
     --accent-main: #651FFF;
@@ -78,6 +78,7 @@
     --btn-see-details-color: rgba(187, 222, 251, 1);
     --carousel-container-bacground: rgba(13, 71, 161, 0.2);
     --carousel-container-border: #006064;
+    --case-studies-btn-hover-color: #bbdefb;
 }
 
 .body {
@@ -148,4 +149,25 @@ h2 {
 .button-write-to-us img{
     width: 19px;
     height: 24px;
+}
+.main-deco {
+    position: relative;
+     z-index: -1;
+}
+.first-rectangle {
+    position: absolute;
+    width: 1007.17px;
+    height: 942.8px;
+    background: #BBDEFB;
+    border-radius: 120px;
+    transform: rotate(-132deg);
+}
+.background-rectangle {
+    position: absolute;
+    width: 997.98px;
+    height: 931.45px;
+    background: #B2EBF2;
+    border-radius: 120px;
+    transform: rotate(-132deg);
+    z-index: -1;
 }
