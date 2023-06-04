@@ -11,9 +11,9 @@
     --default-light: #fafafa;
     --default-dark: #303030;
     --primary-main: #2196F3;
-    --primary-light: rgb(187, 222, 251);
-    --primary-dark: #0D47A1;
-    --secondary-main: rgb(0, 188, 212);
+    --primary-light: #bbdefb;
+    --primary-dark: rgb(13, 71, 161);
+    --secondary-main: #00bcd4;
     --secondary-light: rgb(178, 235, 242);
     --secondary-dark: #006064;
     --accent-main: #651FFF;
