@@ -1,0 +1,228 @@
+.register__landing {
+  height: auto;
+}
+.register__landing nav a {
+  display: flex;
+  align-items: center;
+}
+.register__logo {
+  margin-left: 10px;
+}
+.pages {
+  display: none;
+}
+.register__landing main {
+  padding: 0 112px;
+  display: flex;
+}
+.register__form-container {
+  height: 650.5px;
+  width: 699px;
+  background: var(--paper-light-background);
+  border: 1px solid #2196f3;
+  box-shadow: 0px 3px 49px 9px rgba(0, 0, 0, 0.06);
+  border-radius: 20px 20px 20px 0px;
+}
+.register__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+
+  color: #0d47a1;
+  text-transform: capitalize;
+  margin: 54px auto;
+}
+.register__social-medias-btn-container {
+  margin: 54px 84px;
+  display: flex;
+  justify-content: space-between;
+}
+.register__social-media-btn {
+  height: 39px;
+  width: 161.8285675048828px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+}
+div svg {
+  margin-right: 10px;
+}
+.register__social-media-btn-facebook {
+  background-color: #5856d6;
+}
+.register__social-media-btn-twitter {
+  background-color: #00bcd4;
+}
+.register__social-media-btn-google {
+  background-color: #d84226;
+}
+.register-line {
+  width: 12px;
+  height: 68px;
+  transform: rotate(-90deg);
+}
+.register__subtitle {
+  display: flex;
+  justify-content: space-between;
+  margin: 54px auto;
+}
+.subtitle-text {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.54);
+}
+form {
+  margin: 0 79px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.field {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  margin: 30px 0;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.54); 
+} 
+.field label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  transition: .5s;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.54);
+}
+.field input:focus + label,
+.field input:valid + label {
+  top: -5px;
+  color: var(--primary-main);
+  font-size: 14px;
+}
+.field :focus,
+.field :valid {
+    box-shadow: 0 2px 0 var(--primary-main);
+}
+.field input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+.field-pass {
+  position: relative;
+  width: 48%;
+  height: 40px;
+  margin: 30px 0;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.54); 
+} 
+.field-pass label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  transition: .5s;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.54);
+}
+.field-pass input:focus + label,
+.field-pass input:valid + label {
+  top: -5px;
+  color: var(--primary-main);
+  font-size: 14px;
+}
+.field-pass :focus,
+.field-pass :valid {
+    box-shadow: 0 2px 0 var(--primary-main);
+}
+.field-pass input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+.register__right-side-container {
+  margin-top: 50px;
+  margin-left: 24px;
+}
+.register__right-side-paragraph-title {
+  color: var(--text-subtitle-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 38px;
+  text-align: center;
+}
+.register__right-side-paragraph {
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--text-secondary-dark-mode);
+  text-align: center;
+}
+.register__right-side-artwork-container {
+  position: relative;
+  margin-left: 40px;
+}
+.register__right-side-artwork-image-container {
+  position: relative;
+  width: 441px;
+  height: 443px;
+  margin: 0 auto;
+  z-index: 23;
+}
+.register__right-side-artwork-rectangle-container {
+  position: absolute;
+}
+.register__right-side-artwork-big-rectangle {
+  position: absolute;
+  width: 373px;
+  height: 373px;
+  background-color: var(--primary-main);
+  opacity: 0.1;
+  border-radius: 60px;
+  transform: rotate(-130deg);
+  left: 70px;
+}
+.register__right-side-artwork-small-rectangle {
+  position: absolute;
+  background-color: var(--secondary-main);
+  width: 194px;
+  height: 194px;
+  opacity: 0.05;
+  border-radius: 37px;
+  transform: rotate(-130deg);
+  left: 60px;
+  top: -30px;
+}
