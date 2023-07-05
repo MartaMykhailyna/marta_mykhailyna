@@ -117,6 +117,7 @@
     height: 45px;
     margin-left: 1100px;
     margin-top: 100px;
+    z-index: 90;
 }
 .our-services__slideshow-btn{
     width: 43px;
@@ -141,15 +142,15 @@
 .our-services__artwork-recrtangle-container{
     position: absolute;
     height: 830px;
-    width: 911px;
-    right: -300px;
+    width: 1008px;
+    right: -440px;
     top: 1499px;
     /* overflow: hidden; */
     display: flex;
     justify-content: center;
     align-items: flex-start;
     clip-path: inset(0 40px 40px 0);
-    z-index: 50;
+    z-index: 5;
 }
 .our-services__artwork-recrtangle{
     width: 750px;
